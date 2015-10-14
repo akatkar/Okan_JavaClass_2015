@@ -56,15 +56,23 @@ public static void rightAllignedTriangle(int len) {
 
          // iç içe iki for döngüsü kullanarak aşağıdaki şekli ekrana basan
         // kodu yazın
-        rightAllignedTriangle(5);
-        leftAllignedTriangle(10);
-        triangle(10);
+//        rightAllignedTriangle(5);
+//        leftAllignedTriangle(10);
+//        triangle(10);
         
+        /*
         int i = 5;
         i = i << 2;
         System.out.println("i:"+i);
         i = i >> 1;
         System.out.println("i:"+i);
-        
+        */
+        for(int i=0;i<100;i++){
+            if(i%4 == 0){
+                continue;
+            }
+            System.out.println(i);
+                
+        }
     }
 }
