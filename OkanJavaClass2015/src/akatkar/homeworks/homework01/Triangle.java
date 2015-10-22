@@ -1,7 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ * @Tarih 07.10.2015
+ * @Okul Okan Üniversitesi Bilgisayar Programlama
+ * @Ödev 1
+*/
 package akatkar.homeworks.homework01;
 
 /**
