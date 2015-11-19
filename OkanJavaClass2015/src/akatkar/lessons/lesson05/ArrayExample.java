@@ -5,6 +5,8 @@
  */
 package akatkar.lessons.lesson05;
 
+import akatkar.lessons.lesson06.Example;
+
 /**
  *
  * @author akatkar
@@ -30,5 +32,10 @@ public class ArrayExample {
         
         s1 += ".txt";
         System.out.println("s1:"+s1);
+        
+        
+        Example ex = new Example();
+        ex.public_i = 3;
+        
     }
 }

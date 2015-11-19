@@ -50,7 +50,7 @@ public class Student {
         if (!Objects.equals(this.surname, other.surname)) {
             return false;
         }
-        if (!Objects.equals(this.name, other.name)) {
+        else if (!Objects.equals(this.name, other.name)) {
             return false;
         }
         return true;
