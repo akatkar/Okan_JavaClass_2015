@@ -37,4 +37,11 @@ public class Circle {
         double perimeter = circle1.perimeter();
         double area = circle2.area();
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" + "radius=" + radius + '}';
+    }
+    
+    
 }

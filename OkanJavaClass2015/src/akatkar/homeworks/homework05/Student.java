@@ -10,6 +10,7 @@ package akatkar.homeworks.homework05;
  * @author akatkar
  */
 public class Student {
+
     private String surname;
     private String name;
     private String no;
@@ -30,7 +31,6 @@ public class Student {
         this.department = department;
     }
 
-    
     public String getSurname() {
         return surname;
     }
@@ -73,6 +73,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "surname=" + surname + ", name=" + name + ", no=" + no + ", school=" + school + ", department=" + department + '}';
+        return "Student{" + "surname=" + surname + ", name=" + name + ", no=" +
+                no + ", school=" + school + ", department=" + department + '}';
     }
 }
