@@ -16,6 +16,10 @@ public class Loops {
             System.out.println(i);
          
          // Buraya yukarıdaki kodun eşleniğini while döngüsü olarak yazın
-
+         int i=0;
+         while(i<10){
+             System.out.println(i);
+             i++;
+         }
      }
 }

@@ -39,7 +39,13 @@ public class Comparison {
       //  20 <= 23
       
       // kodu buradan itibaren yazın
-      
+      if(number1>number2){
+          System.out.println(number1 + " > " + number2);
+      }else if (number1 == number2){
+          System.out.println(number1 + " = " + number2);
+      }else{
+          System.out.println(number1 + " < " + number2);
+      }
       
     }
 }
