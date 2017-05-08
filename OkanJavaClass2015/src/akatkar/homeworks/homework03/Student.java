@@ -73,9 +73,13 @@ public class Student {
         if (!Objects.equals(this.name, other.name)) {
             return false;
         }
-        if (!Objects.equals(this.surname, other.surname)) {
-            return false;
-        }
-        return true;
+        return this.surname.equals(other.surname);
     }    
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 59 * hash + Objects.hashCode(this.id);
+        return hash;
+    }
 }
